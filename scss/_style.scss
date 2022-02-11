@@ -1,0 +1,32 @@
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+
+  .header-box {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav {
+      width: 660px;
+      display: flex;
+      justify-content: space-between;
+
+      ul > li {
+        font-size: 24px;
+        color: #000000;
+        cursor: pointer;
+      }
+    }
+
+    .icon {
+      color: #5eb6e1;
+    }
+
+    .burger-bar{
+        display: none;
+    }
+  }
+}
