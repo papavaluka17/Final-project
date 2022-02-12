@@ -164,7 +164,7 @@ a {
 }
 
 .container .header-box nav {
-  width: 660px;
+  width: 580px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -266,5 +266,173 @@ a {
 .s-1 .social-icons > a:hover {
   margin-left: 15px;
   color: #280e88;
+}
+
+.s-2 {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.s-2 .mini-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.s-2 .mini-box .bg-img-1 {
+  background-image: url(../images/img1.png);
+  background-position: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.s-2 .mini-box .bg-img-1 > h3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+
+.s-2 .mini-box .bg-img-1 > h5 {
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+
+.s-2 .mini-box .bg-img-1 > button {
+  width: 100px;
+  padding: 7px;
+  background-color: #ff6c2c;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.s-2 .mini-box .bg-img-1 > button:hover {
+  background-color: #fc530b;
+  -webkit-box-shadow: 5px 6px 14px -2px #fc530b;
+          box-shadow: 5px 6px 14px -2px #fc530b;
+}
+
+.s-2 .mini-box .bg-img-2 {
+  background-image: url(../images/img2.png);
+  background-position: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.s-2 .mini-box .bg-img-2 > h3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+
+.s-2 .mini-box .bg-img-2 > h5 {
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+
+.s-2 .mini-box .bg-img-2 > button {
+  width: 100px;
+  padding: 7px;
+  background-color: #945b9f;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.s-2 .mini-box .bg-img-2 > button:hover {
+  background-color: #c80bee;
+  -webkit-box-shadow: 5px 6px 14px -2px #c80bee;
+          box-shadow: 5px 6px 14px -2px #c80bee;
+}
+
+.s-2 .mini-box .bg-img-3 {
+  background-image: url(../images/img1.png);
+  background-position: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.s-2 .mini-box .bg-img-3 > h3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+
+.s-2 .mini-box .bg-img-3 > h5 {
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+
+.s-2 .mini-box .bg-img-3 > button {
+  width: 100px;
+  padding: 7px;
+  background-color: #5EB6E1;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.s-2 .mini-box .bg-img-3 > button:hover {
+  background-color: #08aafc;
+  -webkit-box-shadow: 5px 6px 14px -2px #08aafc;
+          box-shadow: 5px 6px 14px -2px #08aafc;
 }
 /*# sourceMappingURL=global.css.map */
