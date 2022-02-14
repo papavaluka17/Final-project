@@ -196,7 +196,7 @@
     }
 
     .bg-img-3 {
-      background-image: url(../images/img1.png);
+      background-image: url(../images/img3.png);
       background-position: center;
       background-color: white;
       background-repeat: no-repeat;
@@ -292,7 +292,7 @@
         padding: 8px;
         cursor: pointer;
 
-        &:hover{
+        &:hover {
           background-color: aqua;
           box-shadow: 5px 6px 14px -2px rgba(27, 201, 201, 0.72);
         }
@@ -667,14 +667,106 @@
     display: block;
     padding: 13px;
     color: #000000;
-    background-color: #5EB6E1;
+    background-color: #5eb6e1;
     border: none;
     border-radius: 10px;
     cursor: pointer;
 
-    &:hover{
+    &:hover {
       background-color: aqua;
       box-shadow: 5px 6px 14px -2px rgba(27, 201, 201, 0.72);
+    }
+  }
+}
+
+.s-8 {
+  background-color: #181a1f;
+  margin-top: 100px;
+
+  .container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+
+     h2 {
+      color: #ffffff;
+      font-size: 45px;
+      margin-bottom: 20px;
+    }
+
+    .line {
+      border-bottom: 2px #5eb6e1 solid;
+      width: 90px;
+      display: block;
+      margin-bottom: 35px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      & > select {
+        @extend %iinput-params;
+      }
+
+      & > input[type="email"] {
+        @extend %iinput-params;
+        outline: none;
+      }
+
+      & > textarea {
+        @extend %iinput-params;
+        resize: none;
+        height: 150px;
+        outline: none;
+      }
+
+      & > input[type="submit"] {
+        width: 400px;
+        padding: 10px;
+        background-color: #5eb6e1;
+        color: #000000;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 30px;
+
+        &:hover {
+          background-color: aqua;
+          box-shadow: 5px 6px 14px -2px rgba(27, 201, 201, 0.72);
+        }
+      }
+    }
+
+    .contact {
+      display: flex;
+      margin-bottom: 20px;
+
+      .vertical-line {
+        height: 17px;
+        border-left: 1px #ffffff solid;
+        display: block;
+        margin-right: 20px;
+      }
+
+      & > p {
+        margin-right: 30px;
+        color: #ffffff;
+      }
+    }
+
+    .icons {
+      color: #5eb6e1;
+
+      & > i:not(last-child) {
+        margin-right: 20px;
+      }
+    }
+
+    & > img{
+      max-width: 600px;
+      width: 100%;
+      height: 620px;
     }
   }
 }
