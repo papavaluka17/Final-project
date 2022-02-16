@@ -982,6 +982,10 @@ a {
           flex-direction: column;
 }
 
+.s-8 .container form > select {
+  outline: none;
+}
+
 .s-8 .container form > input[type="email"] {
   outline: none;
 }
@@ -1030,6 +1034,7 @@ a {
 
 .s-8 .container .icons {
   color: #5eb6e1;
+  cursor: pointer;
 }
 
 .s-8 .container .icons > i:not(last-child) {
@@ -1118,25 +1123,19 @@ a {
       flex-wrap: wrap;
 }
 
-.footer .container .second-column .square-wrapper .square {
+.footer .container .second-column .square-wrapper > h2 {
   width: 90px;
   padding: 7px;
   border: 1px #979797 solid;
   margin-bottom: 5px;
   cursor: pointer;
-}
-
-.footer .container .second-column .square-wrapper .square:hover {
-  background-color: #5EB6E1;
-}
-
-.footer .container .second-column .square-wrapper .square > h2 {
   text-align: center;
   font-size: 10px;
-  color: #BBBBBB;
+  color: #bbbbbb;
 }
 
-.footer .container .second-column .square-wrapper .square > h2:hover {
+.footer .container .second-column .square-wrapper > h2:hover {
+  background-color: #5eb6e1;
   color: #ffffff;
 }
 /*# sourceMappingURL=global.css.map */

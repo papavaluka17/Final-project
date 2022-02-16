@@ -707,6 +707,7 @@
 
       & > select {
         @extend %iinput-params;
+        outline: none;
       }
 
       & > input[type="email"] {
@@ -757,6 +758,7 @@
 
     .icons {
       color: #5eb6e1;
+      cursor: pointer;
 
       & > i:not(last-child) {
         margin-right: 20px;
@@ -828,29 +830,23 @@
         margin-bottom: 20px;
       }
 
-      .square-wrapper{
+      .square-wrapper {
         display: flex;
         flex-wrap: wrap;
 
-        .square{
+        & > h2 {
           width: 90px;
           padding: 7px;
           border: 1px #979797 solid;
           margin-bottom: 5px;
           cursor: pointer;
+          text-align: center;
+          font-size: 10px;
+          color: #bbbbbb;
 
-          &:hover{
-            background-color: #5EB6E1;
-          }
-
-          & > h2{
-            text-align: center;
-            font-size: 10px;
-            color: #BBBBBB;
-
-            &:hover{
-              color: #ffffff;
-            }
+          &:hover {
+            background-color: #5eb6e1;
+            color: #ffffff;
           }
         }
       }
