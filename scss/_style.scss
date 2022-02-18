@@ -18,16 +18,40 @@
         font-size: 20px;
         color: #000000;
         cursor: pointer;
+
+        &:hover {
+          color: red;
+        }
+      }
+
+      @media (max-width: 830px) {
+        display: none;
       }
     }
 
     a {
       color: #5eb6e1;
+
+      & > .call {
+        @media (max-width: 1024px) {
+          // display: none;
+        }
+      }
     }
 
     .burger-bar {
       display: none;
+
+      @media (max-width: 830px) {
+        display: block;
+        font-size: 30px;
+        // margin-left: 430px;
+      }
     }
+  }
+
+  @media (max-width: 1200px) {
+    width: 90%;
   }
 }
 
@@ -38,8 +62,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  width: 100%;
-  height: 590px;
+  width: 100vw;
+  height: 100vh;
 
   display: flex;
   justify-content: center;
@@ -250,6 +274,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 
     .content-box {
       width: 350px;
@@ -477,6 +502,7 @@
   .cards {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 40px;
 
@@ -687,6 +713,7 @@
     padding: 40px 0;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
     h2 {
       color: #ffffff;

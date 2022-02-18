@@ -207,6 +207,16 @@ a {
   cursor: pointer;
 }
 
+.container .header-box nav ul > li:hover {
+  color: red;
+}
+
+@media (max-width: 830px) {
+  .container .header-box nav {
+    display: none;
+  }
+}
+
 .container .header-box a {
   color: #5eb6e1;
 }
@@ -215,14 +225,27 @@ a {
   display: none;
 }
 
+@media (max-width: 830px) {
+  .container .header-box .burger-bar {
+    display: block;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+
 .s-1 {
   background-image: url(../images/bg.png);
   background-position: center;
   background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 590px;
+  width: 100vw;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -482,6 +505,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .s-3 .content .content-box {
@@ -732,6 +757,8 @@ a {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -957,6 +984,8 @@ a {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .s-8 .container h2 {
